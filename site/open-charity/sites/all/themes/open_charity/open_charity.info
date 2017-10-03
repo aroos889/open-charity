@@ -1,0 +1,43 @@
+name = Open Charity
+description = A blank theme for embedding
+package = Open Charity
+version = VERSION
+core = 7.x
+
+regions[header] = Header
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[front_event] = Front event
+regions[content] = Content
+regions[sidebar_first] = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[front_our_members] = Front our members
+regions[footer_top] = Foote top
+regions[footer] = Footer
+regions[page_bottom] = Page bottom
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = search
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+; Stylesheets
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/owl.carousel.min.css
+stylesheets[all][] = css/owl.theme.default.min.css
+stylesheets[all][] = css/style.css
+
+; Scripts
+scripts[] = js/owl.carousel.min.js
+scripts[] = js/scripts.js
+
+; Information added by Drupal.org packaging script on 2017-07-13
+version = "7.56+2-dev"
+project = "drupal"
+datestamp = "1499966300"
+

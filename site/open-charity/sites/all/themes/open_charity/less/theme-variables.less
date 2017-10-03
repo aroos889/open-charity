@@ -1,0 +1,73 @@
+// @file: theme-variables.less
+// Add custom variables for use in style.less
+
+//== Colors
+// ----
+//## Gray and brand colors for use across Bootstrap.
+@base-color: #575656;
+@brand-primary: #5fc0c3;
+@color-light-green: #61c0bd;
+@bg-color: #e7e7e7;
+
+//== Typography
+// ----
+@font-size-base: 14px;
+@line-height-base:        1.643; // 23/12
+@base-font-family:  "Open Sans", sans-serif, Helvetica;
+@font-museo_sans_rounded100:  "museo_sans_rounded100", sans-serif, Helvetica;
+@font-museo_sans_rounded300:  "museo_sans_rounded300", sans-serif, Helvetica;
+@font-museo_sans_rounded500:  "museo_sans_rounded500", sans-serif, Helvetica;
+@font-museo_sans_rounded700:  "museo_sans_rounded700", sans-serif, Helvetica;
+@font-museo_sans_rounded900:  "museo_sans_rounded900", sans-serif, Helvetica;
+
+@font-size-h1:            floor((@font-size-base * 1.714)); // ~24px
+@font-size-h2:            floor((@font-size-base * 1.571)); // ~22px
+@font-size-h3:            ceil((@font-size-base * 1.429)); // ~20px
+@font-size-h4:            ceil((@font-size-base * 1.286)); // ~18px
+@font-size-h5:            ceil((@font-size-base * 1.143)); // ~16px
+@font-size-h6:            ceil((@font-size-base * 1.071)); // ~15px
+
+// Global
+// ----
+@link-color: @brand-primary;
+@link-hover-color: @brand-primary;
+@text-decoration-none: none;
+@link-decoration-underline: underline;
+@link-outline-none:  none;
+
+//
+// Typography
+// ----
+
+body {
+    margin: 0;
+    background: @bg-color;
+    color: @base-color;
+    font-family: @base-font-family;
+    font-size: @font-size-base;
+    line-height: @line-height-base;
+}
+
+// Headings
+// ----
+
+h1, .h1 { font-size: @font-size-h1; }
+h2, .h2 { font-size: @font-size-h2; }
+h3, .h3 { font-size: @font-size-h3; }
+h4, .h4 { font-size: @font-size-h4; }
+h5, .h5 { font-size: @font-size-h5; }
+h6, .h6 { font-size: @font-size-h6; }
+
+a {
+    outline: @link-outline-none;
+    color: @link-color;
+    text-decoration: @text-decoration-none;
+}
+a:link, a:visited {
+    outline: @link-outline-none;
+    text-decoration: @text-decoration-none;
+}
+a:active, a:focus, a:hover {
+    color: @link-hover-color;
+    text-decoration: @link-decoration-underline;
+}

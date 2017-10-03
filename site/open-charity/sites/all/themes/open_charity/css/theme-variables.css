@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background: #e7e7e7;
+  color: #575656;
+  font-family: "Open Sans", sans-serif, Helvetica;
+  font-size: 14px;
+  line-height: 1.643;
+}
+h1,
+.h1 {
+  font-size: 23px;
+}
+h2,
+.h2 {
+  font-size: 21px;
+}
+h3,
+.h3 {
+  font-size: 21px;
+}
+h4,
+.h4 {
+  font-size: 19px;
+}
+h5,
+.h5 {
+  font-size: 17px;
+}
+h6,
+.h6 {
+  font-size: 15px;
+}
+a {
+  outline: none;
+  color: #5fc0c3;
+  text-decoration: none;
+}
+a:link,
+a:visited {
+  outline: none;
+  text-decoration: none;
+}
+a:active,
+a:focus,
+a:hover {
+  color: #5fc0c3;
+  text-decoration: underline;
+}
